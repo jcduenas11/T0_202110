@@ -72,7 +72,7 @@ public class Controller {
 					respuesta = modelo.eliminar(dato);
 					if ( respuesta != null)
 					{
-						view.printMessage("Dato eliminado "+ respuesta);
+						view.printMessage("Dato eliminado: "+ respuesta);
 					}
 					else
 					{

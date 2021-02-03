@@ -26,12 +26,15 @@ public class TestArregloDinamico {
 	@Test
 	public void testArregloDinamico() {
 		// TODO
+		setUp1();
+		assertNotNull(arreglo);
 	}
 
 	@Test
 	public void testDarElemento() {
 		setUp2();
 		// TODO
+		assertEquals("55",arreglo.darElemento(55));
 	}
 
 }

@@ -68,5 +68,14 @@ public class Modelo {
 		return datos.eliminar(dato);
 	}
 
+	/**
+	 * Requerimiento dar elemento
+	 * @param dato Dato a retornar
+	 * @return elemento retornado
+	 */
+	public String darElemento(int dato)
+	{
+		return datos.darElemento(dato);
+	}
 
 }
